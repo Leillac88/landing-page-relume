@@ -4,69 +4,239 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>GameSphere</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>E-Commerce | GameSphere</title>
 </head>
 <body>
+
     <header>
-        <div class="header-container">
-            <a href="#" class="logo"><span>🎮</span>GameSphere</a>
 
-            <nav class="navbar">
-                <a href="#">Jogos Novos</a>
-                <a href="#">Promoções Especiais</a>
-                <a href="#">Lançamentos</a>
-                <a href="#">Mais Opções</a>
-            </nav>
+        <a href="#" class="logo">GameSphere <span>.</span></a>
 
-            <div class="header-actions">
-                <button class="see">Ver</button>
-                <button class="buy">Comprar</button>
-            </div>
+        <nav class="navbar">
+            <a href="#">Novos Jogos</a>
+            <a href="#">Promoções Especiais</a>
+            <a href="#">Lançamentos Recentes</a>
+            <a href="#">Mais Opções</a>
+        </nav>
+    
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
         </div>
+
     </header>
 
-    <main>
-        <section class="hero">
-            <div class="container">
-                <div class="hero-container">
-                    <h1 class="hero-title">Descubra o mundo dos jogos incríveis!</h1>
-                    <p class="hero-text">Bem-vindo à nossa loja, onde a diversão nunca acaba. Encontre os jogos mais populares e as últimas novidades para o seu console favorito.</p>
-                    <div class="hero-buttons">
-                        <a href="#explore" class="btn-primary">Explore</a>
-                        <a href="#more" class="btn-outline">Saiba Mais</a>
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Hey, Player!</h3>
+            <span>Descubra o mundo dos jogos incríveis!</span>
+            <p>Bem-vindo à nossa loja, onde a diversão nunca acaba. Encontre os jogos mais populares e as últimas novidades para o seu console favorito.</p>
+            <a href="#" class="btn">Explore</a>
+        </div>
+        
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading"><span> Sobre </span> Nós </h1>
+
+        <div class="row">
+            <div class="video-container">
+                <video src="assets/videogame.mp4" loop autoplay muted></video>
+                <h3>Play Now</h3>
+            </div>
+
+            <div class="content">
+                <h3>Por que escolher a GameSphere?</h3>
+                <p>A GameSphere é mais do que uma loja, é um portal para o universo dos games!</p>
+                <p>Os melhores títulos, dos clássicos aos lançamentos. Equipamentos e acessórios para uma experiência imersiva. Um espaço feito para quem vive e respira jogos. Venha jogar, explorar e fazer parte do time!</p>
+                <a href="#" class="btn">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="products" id="products">
+        
+        <h1 class="heading"> <span> Produtos em </span>Destaque </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="assets/thelastofus.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="about" id="about">
-            <h1 class="heading">Por que escolher a GameSphere?</h1>
-            <div class="row">
-                <div class="video-container">
-                    <video src="assets/videogame.mp4" loop autoplay muted></video>
-                </div>
-    
                 <div class="content">
-                    <h3>Paixão pelo mundo gamer</h3>
-                    <p>Os melhores títulos, dos clássicos aos lançamentos. Equipamentos e acessórios para uma experiência imersiva.</p>
-                    <p>Um espaço feito para quem vive e respira jogos. Venha jogar, explorar e fazer parte da GameSphere!</p>
-                    <a href="#" class="btn">Saiba mais!</a>
+                    <h3>The Last Of Us II</h3>
+                    <div class="price"> $12.99 <span>$15.99</span></div>
                 </div>
             </div>
-        </section>
+    
+            <div class="box">
+                <span class="discount">-15%</span>
+                <div class="image">
+                    <img src="assets/godofwar.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>God Of War</h3>
+                    <div class="price"> $12.99 <span>$15.99</span></div>
+                </div>
+            </div>
+    
+            <div class="box">
+                <span class="discount">-5%</span>
+                <div class="image">
+                    <img src="assets/reddead.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Red Dead</h3>
+                    <div class="price"> $12.99 <span>$15.99</span></div>
+                </div>
+            </div>
+        </div>      
+    </section>
 
+    <section class="review" id="review">
+        <h1 class="heading"> <span>Avaliação dos </span> Clientes</h1>
+        <div class="box-container">
+            
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>A GameSphere é perfeita para quem busca os melhores jogos! Comprei um título incrível e a experiência foi impecável—site rápido, entrega eficiente e atendimento especializado. Sem dúvida, minha loja favorita!</p>
+                <div class="user">
+                    <img src="assets/user.png" alt="user icon">
+                    <div class="user-info">
+                        <h3>Lucas M.</h3>
+                        <span>Caçador de lançamentos</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
 
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Variedade impressionante! Encontrei tudo o que procurava para meu console e PC. Compra segura, site intuitivo e envio ágil. Finalmente, uma loja que entende a paixão gamer! Comprarei mais vezes, com certeza</p>
+                <div class="user">
+                    <img src="assets/user.png" alt="">
+                    <div class="user-info">
+                        <h3>Fernanda R.</h3>
+                        <span>Exploradora de títulos</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
 
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Serviço excelente! A GameSphere tem preços incríveis e um suporte incrível. Fui bem atendido, recebi ótimas indicações e agora é meu destino principal para tudo relacionado a games!</p>
+                <div class="user">
+                    <img src="assets/user.png" alt="">
+                    <div class="user-info">
+                        <h3>Eduardo S.</h3>
+                        <span>Estrategista gamer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+        </div>
 
-    </main>
+    </section>
 
+    <section class="contact" id="contact">
+        <h1 class="heading"> <span>Entre em </span> Contato </h1>
+        <div class="row">
 
+            <form action="">
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="number" placeholder="number" class="box">
+                <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
 
+            <div class="image">
+                <img src="assets/contact2.jpg" alt="">
+            </div>
+        </div>
+    </section>
 
+    <section class="footer">
 
+        <div class="box-container">
 
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">products</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>
 
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#">my account</a>
+                <a href="#">my order</a>
+                <a href="#">my favorite</a>
+            </div>
 
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">brasil</a>
+                <a href="#">USA</a>
+                <a href="#">france</a>
+                <a href="#">spain</a>
+                <a href="#">italy</a>
+            </div>
 
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">+123-456-7890</a>
+                <a href="#">example@gmail.com</a>
+                <a href="#">fortaleza, ceará - 60000-000</a>
+                <img src="assets/payments.png" alt="">
+            </div>
+
+        </div>
+
+        <div class="credit"> created by <span> mr. web designer</span> | all rights reserved</div>
+
+    </section>
+   
 </body>
 </html>
