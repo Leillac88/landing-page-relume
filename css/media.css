@@ -26,7 +26,7 @@
         top: 100%;
         left: 0;
         right: 0;
-        background: #eee;
+        background: var(--navy);
         border-top: .1rem solid rgba(0, 0, 0, .1);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
@@ -42,6 +42,9 @@
         border: .1rem solid rgba(0, 0, 0, .1);
         display: block;
     }
+
+    header .navbar a:hover {
+        color: #102f69;
 
     .home .content h3 {
         font-size: 5rem;
@@ -70,4 +73,5 @@
     .heading {
         font-size: 3rem;
     }
+}
 }

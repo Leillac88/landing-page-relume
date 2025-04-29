@@ -76,6 +76,10 @@ header .icons a:hover {
     color: var(--white);
 }
 
+header #toggler {
+    display: none;
+}
+
 header .fa-bars {
     font-size: 3rem;
     color: var(--navy);
@@ -110,6 +114,7 @@ header .fa-bars {
     color: var(--acqua);
     padding: 1rem 0;
     line-height: 1.5;
+    font-weight: 500;
 }
 
 .home .content p {
@@ -386,7 +391,7 @@ header .fa-bars {
 
 .footer .box-container .box h3 {
     color: var(--acqua);
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 1rem 0;
 }
 
@@ -394,7 +399,7 @@ header .fa-bars {
     display: block;
     color: var(--white);
     font-size: 1.5rem;
-    padding: 1rem 0;
+    padding: .5rem 0;
 }
 
 .footer .box-container .box a:hover {
