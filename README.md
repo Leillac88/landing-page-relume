@@ -27,4 +27,4 @@ landing-page-relume/
 Este projeto é de uso **pessoal**.  
 ©️ Todos os direitos reservados **Leillac88**.
 
-## 👨‍🏫 **Com a orientação de:** Luan Oliveira
+### 👨‍🏫 **Com a orientação de:** Luan Oliveira
