@@ -1,6 +1,6 @@
 # Landing Page - Relume
 
-Este repositório contém uma landing page desenvolvida com base em um modelo gerado pelo **Relume Library** e personalizada para fins profissionais e demonstrativos.
+Este repositório contém uma landing page, feita como um projeto da Geração Tech, desenvolvida com base em um modelo gerado pelo **Relume Library** e personalizada para fins profissionais e demonstrativos.
 
 ## 📸 Demonstração
 
@@ -10,7 +10,6 @@ Este repositório contém uma landing page desenvolvida com base em um modelo ge
 
 - **HTML5** – Estrutura semântica e moderna  
 - **CSS3** – Estilização responsiva e visual refinado  
-- **JavaScript (mínimo)** – Para interações básicas (caso implementado)  
 - **Relume Library** – Ferramenta de geração de sites com base em inteligência artificial  
 - **GitHub Pages** – Deploy gratuito e direto a partir do repositório
 
@@ -28,4 +27,4 @@ landing-page-relume/
 Este projeto é de uso **pessoal**.  
 ©️ Todos os direitos reservados **Leillac88**.
 
-## 👨‍🏫 **Orientador:** Luan Oliveira
+## 👨‍🏫 **Com a orientação de:** Luan Oliveira
