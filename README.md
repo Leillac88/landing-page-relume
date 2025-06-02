@@ -22,4 +22,11 @@ landing-page-relume/
 └── README.md           # Documentação do projeto
 ````
 
+## 🛡️ Direitos Autorais
+
+Este projeto é de autoria de **Leillac88**.  
+O uso e redistribuição do código estão permitidos sob os termos da licença presente neste repositório.
+
+---
+
 ### 👨‍🏫 **Sob a orientação de:** Luan Oliveira
